@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="#FFFFFF">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+ 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:background="@drawable/lottemart"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="바코드 아이콘을 누르면 바코드 스캔화면으로,    카트 아이콘을 누르면 장바구니 화면으로 이동해요"
+        android:textSize="18dp"
+        android:background="#0000"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+      android:background="@drawable/barcodescanner"  />
+
+    <Button
+        android:id="@+id/shop"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="0dp"
+       android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:background="@drawable/basket"/>
+</LinearLayout>
+
+
+</LinearLayout>
